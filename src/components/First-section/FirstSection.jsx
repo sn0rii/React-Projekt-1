@@ -1,4 +1,6 @@
-const Nav = () => {
+import "./FirstSection.css";
+
+const FirstSection = () => {
   return (
     <section className="first-section">
       <div className="background-shade"></div>
@@ -31,4 +33,4 @@ const Nav = () => {
     </section>
   );
 };
-export default Nav;
+export default FirstSection;

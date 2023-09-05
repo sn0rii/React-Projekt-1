@@ -1,10 +1,12 @@
 import "./App.css";
-import Nav from "./components/Nav/Nav";
+import About from "./components/About/About";
+import FirstSection from "./components/First-section/FirstSection";
 
 const App = () => {
   return (
     <>
-      <Nav />
+      <FirstSection />
+      <About />
     </>
   );
 };

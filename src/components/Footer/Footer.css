@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  gap: 350px;
+  background-color: var(--black-oak);
+  color: var(--white);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 960px;
+  margin: 20px 14px;
+}
+
+.footer-paragraph {
+  display: flex;
+  gap: 10px;
+  font-size: 31px;
+}
+
+/* MEDIA SCREEN MEDIUM  */
+
+@media screen and (min-width: 769px) {
+  .footer-container {
+    flex-direction: row;
+    gap: 0;
+    width: 720px;
+    margin: 20px auto;
+  }
+}
+
+/* MEDIA SCREEN DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .footer-container {
+    gap: 0;
+    width: 960px;
+    margin: 20px auto;
+  }
+}

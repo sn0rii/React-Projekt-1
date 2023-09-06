@@ -1,13 +1,14 @@
-const OfferList = () => {
-  const offers = [
-    { title: "Usługa 1", isNew: true },
-    { title: "Usługa 2", isNew: false },
-    { title: "Usługa 3", isNew: false },
-    { title: "Usługa 4", isNew: true },
-    { title: "Usługa 5", isNew: false },
-    { title: "Usługa 6", isNew: true },
-  ];
+import "./Offer.css";
 
-  return <div>OfferList</div>;
+const OfferList = ({ title, isNew }) => {
+  return (
+    <>
+      <div className={"service column align-center justify-center"}>
+        {title}
+        {isNew ? <div className="under-text">"nowość"</div> : ""}
+        {isNew ? <div className="circle"></div> : ""}
+      </div>
+    </>
+  );
 };
 export default OfferList;

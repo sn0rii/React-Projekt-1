@@ -1,17 +1,8 @@
 import "./Offer.css";
 import OfferList from "./OfferList";
+import { offers } from "../../data/offers";
 
 const Offer = () => {
-  const offers = [
-    { title: "Usługa 1", isNew: true },
-    { title: "Usługa 2", isNew: false },
-    { title: "Usługa 3", isNew: true },
-    { title: "Usługa 4", isNew: false },
-    { title: "Usługa 5", isNew: false },
-    { title: "Usługa 6", isNew: false },
-    ,
-  ];
-
   return (
     <section className="offer-section wrap column" id="offer">
       <div className="column">

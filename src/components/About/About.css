@@ -19,56 +19,6 @@
   text-align: center;
 }
 
-.description {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  gap: 30px;
-  text-align: justify;
-}
-
-.personal-photo {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-image: url(/src/assets/Personal-photo.jpg);
-  background-size: cover;
-  border-radius: 50%;
-}
-
-.specialist-info {
-  max-width: 600px;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 18px;
-}
-
-/* MEDIA SCREEN MEDIUM  */
-
-@media screen and (min-width: 769px) {
-  .description {
-    justify-content: flex-end;
-    gap: 0;
-    margin-bottom: 40px;
-  }
-
-  .personal-photo {
-    width: 150px;
-    height: 150px;
-    flex-shrink: 0;
-  }
-
-  .description:nth-child(odd) {
-    flex-direction: row;
-    text-align: end;
-  }
-
-  .description:nth-child(even) {
-    flex-direction: row-reverse;
-    text-align: start;
-  }
-}
-
 /* MEDIA SCREEN DESKTOP */
 
 @media screen and (min-width: 1024px) {
@@ -79,27 +29,5 @@
   .about-header {
     text-align: start;
     margin-top: 50px;
-  }
-  .description {
-    display: flex;
-    justify-content: flex-end;
-    gap: 50px;
-    max-height: 200px;
-    margin-bottom: 50px;
-  }
-
-  .description:nth-child(odd) {
-    flex-direction: row;
-    text-align: end;
-  }
-
-  .description:nth-child(even) {
-    flex-direction: row-reverse;
-    text-align: start;
-  }
-
-  .personal-photo {
-    width: 157px;
-    height: 157px;
   }
 }

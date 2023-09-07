@@ -1,4 +1,6 @@
-const Workers = ({ name, department, description, photo }) => {
+import "./Worker.css";
+
+const Worker = ({ name, department, description, photo }) => {
   return (
     <>
       <div className="description align-center">
@@ -13,4 +15,4 @@ const Workers = ({ name, department, description, photo }) => {
     </>
   );
 };
-export default Workers;
+export default Worker;

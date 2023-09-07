@@ -1,8 +1,8 @@
-import "./FirstSection.css";
+import "./Header.css";
 
-const FirstSection = () => {
+const Header = () => {
   return (
-    <section className="first-section">
+    <header className="header-section">
       <div className="background-shade"></div>
       <div className="nav-bar-background"></div>
       <div className="container column">
@@ -18,11 +18,11 @@ const FirstSection = () => {
             <li className="not-allowed">kontakt</li>
           </ul>
         </nav>
-        <div className="first-section-text column">
+        <div className="header-section-text column">
           <h1 className="header">
             Nasza firma oferuje najwyższej jakości produkty.
           </h1>
-          <p className="first-section-paragraph">
+          <p className="header-section-paragraph">
             Nie wierz nam na słowo - sprawdź
           </p>
           <a href="#offer" className="btn align-center justify-center">
@@ -30,7 +30,7 @@ const FirstSection = () => {
           </a>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
-export default FirstSection;
+export default Header;

@@ -1,5 +1,3 @@
-import "./About.css";
-
 const Workers = ({ name, department, description, photo }) => {
   return (
     <>

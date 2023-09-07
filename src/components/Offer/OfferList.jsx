@@ -1,5 +1,3 @@
-import "./Offer.css";
-
 const OfferList = ({ title, isNew }) => {
   return (
     <>

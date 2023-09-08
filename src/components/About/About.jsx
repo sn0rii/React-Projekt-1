@@ -1,6 +1,6 @@
 import "./About.css";
 
-import Worker from "./Worker";
+import Worker from "../Worker/Worker";
 import { workers } from "../../data/workers";
 
 const About = () => {

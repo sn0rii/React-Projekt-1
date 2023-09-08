@@ -1,5 +1,5 @@
 import "./Offer.css";
-import OfferList from "./OfferList";
+import OfferList from "../OfferList/OfferList";
 import { offers } from "../../data/offers";
 
 const Offer = () => {
